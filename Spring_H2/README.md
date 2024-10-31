@@ -1,16 +1,16 @@
 寫入提供API資料  
 GET  http://localhost:8081/portfolio/api/forex/insertApi  
 
-1. 測試呼叫查詢幣別對應表資料API，並顯示其內容。(根據幣別查詢)    
+1. 測試呼叫查詢幣別對應表資料API，並顯示其內容。(根據幣別查詢)  
 GET  http://localhost:8081/portfolio/api/forex/getOne/USD  
 GET  http://localhost:8081/portfolio/api/forex/getOne/GBP  
 GET  http://localhost:8081/portfolio/api/forex/getOne/EUR  
-2. 測試呼叫新增幣別對應表資料API。(根據提供API 寫入)  
+2. 測試呼叫新增幣別對應表資料API。(如有刪除，根據提供API 幣別寫入 )    
 http://localhost:8081/portfolio/api/forex/insertApiByCode?code=USD  
 http://localhost:8081/portfolio/api/forex/insertApiByCode?code=GBP  
 http://localhost:8081/portfolio/api/forex/insertApiByCode?code=EUR    
 
-3. 測試呼叫更新幣別對應表資料API，並顯示其內容。  
+3. 測試呼叫更新幣別對應表資料API，並顯示其內容。(根據提供API 更新寫入、比較新獲取資料time > 原先存入時間 )  
 PUT  http://localhost:8081/portfolio/api/forex/updateApi  
 
 4. 測試呼叫刪除幣別對應表資料API。  
