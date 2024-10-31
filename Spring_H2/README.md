@@ -19,10 +19,10 @@ DELETE http://localhost:8081/portfolio/api/forex/delete/GBP
 DELETE http://localhost:8081/portfolio/api/forex/delete/EUR    
 DELETE http://localhost:8081/portfolio/api/forex/deleteAll    
 
-5. 測試呼叫coindesk API，並顯示其內容。  
+5. 測試呼叫coindesk API，並顯示其內容。(呼叫API 原始資料)  
 GET  http://localhost:8081/portfolio/api/forex/getApiData  
 
-6. 測試呼叫資料轉換的API，並顯示其內容。  
+6. 測試呼叫資料轉換的API，並顯示其內容。(呼叫目前DB現況資料)  
 GET  http://localhost:8081/portfolio/api/forex/getForexAll
 
 
