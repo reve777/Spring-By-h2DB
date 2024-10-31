@@ -1,3 +1,6 @@
+寫入提供API資料
+GET  http://localhost:8081/portfolio/api/forex/insertApi
+
 1. 測試呼叫查詢幣別對應表資料API，並顯示其內容。  
 GET  http://localhost:8081/portfolio/api/forex/getOne/USD  
 2. 測試呼叫新增幣別對應表資料API。  
@@ -18,7 +21,7 @@ DELETE http://localhost:8081/portfolio/api/forex/deleteAll
 GET  http://localhost:8081/portfolio/api/forex/getApiData  
 
 7. 測試呼叫資料轉換的API，並顯示其內容。  
-GET  http://localhost:8081/portfolio/api/forex/insertApi  
+GET  http://localhost:8081/portfolio/api/forex/getForexAll
 
 
 CODE 幣別 USD GBP EUR  
