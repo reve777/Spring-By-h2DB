@@ -2,9 +2,9 @@
 GET  http://localhost:8081/portfolio/api/forex/insertApi  
 
 1. 測試呼叫查詢幣別對應表資料API，並顯示其內容。  
-GET  http://localhost:8081/portfolio/api/forex/getOne/USD
+GET  http://localhost:8081/portfolio/api/forex/getOne/USD  
 GET  http://localhost:8081/portfolio/api/forex/getOne/GBP  
-GET  http://localhost:8081/portfolio/api/forex/getOne/EUR    
+GET  http://localhost:8081/portfolio/api/forex/getOne/EUR  
 3. 測試呼叫新增幣別對應表資料API。  
 http://localhost:8081/portfolio/api/forex/insertApiByCode?code=USD  
 http://localhost:8081/portfolio/api/forex/insertApiByCode?code=GBP  
